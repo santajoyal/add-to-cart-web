@@ -2,7 +2,7 @@ function Card({product,addToCart,cartItems}){
     return  <div className='col-lg-4 border p-3 mt-2'>
     <div className='row'>
       <div className='col-lg-12'>
-        <img className='img-fluid' src="https://fdn.gsmarena.com/imgroot/news/19/12/phones-of-the-decade/-727w2/gsmarena_001.jpg" />
+        <img className='img-fluid' style={{width:"200px" , height:"200px"}} src={product.img_url} />
       </div>
       <div className='col-lg-12'>
         <h3>{product.name}</h3>
